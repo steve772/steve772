@@ -8,3 +8,7 @@ applications:
   disk_quota: 1024M
   services:
   - steve772-cloudantNoSQLDB
+  env:
+    NODE_RED_USERNAME: steve772
+    NODE_RED_PASSWORD: steve772
+  command: node --max-old-space-size=384 node_modules/node-red/red.js --settings ./bluemix-settings.js -v

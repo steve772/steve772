@@ -1,0 +1,10 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: steve772
+  host: steve772
+  disk_quota: 1024M
+  services:
+  - steve772-cloudantNoSQLDB
